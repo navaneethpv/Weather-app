@@ -17,8 +17,16 @@ body {
   margin: 50px auto;
   border-radius: 20px;
   box-shadow: 0 1px 5px #ddddddaf;
-  background: #9EC7FC;
-background: linear-gradient(90deg, rgba(158, 199, 252, 1) 2%, rgba(161, 199, 255, 1) 14%, rgba(155, 199, 249, 1) 38%, rgba(87, 199, 171, 1) 60%, rgba(108, 232, 102, 1) 84%, rgba(141, 242, 154, 1) 100%);
+  background: #9ec7fc;
+  background: linear-gradient(
+    90deg,
+    rgba(158, 199, 252, 1) 2%,
+    rgba(161, 199, 255, 1) 14%,
+    rgba(155, 199, 249, 1) 38%,
+    rgba(87, 199, 171, 1) 60%,
+    rgba(108, 232, 102, 1) 84%,
+    rgba(141, 242, 154, 1) 100%
+  );
   background-size: 400% 400%;
 }
 .search {
@@ -130,4 +138,39 @@ background: linear-gradient(90deg, rgba(158, 199, 252, 1) 2%, rgba(161, 199, 255
   color: #fff;
   margin-left: -87px;
   text-shadow: 0 1px 5px #999696;
+}
+@media screen and (max-width: 360px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+  .search{
+    margin-top: 15px;
+  }
+  .search > input{
+    font-size: 17px;
+  }
+  .content img{
+    width: 150px;
+    height: 150px;
+  }
+  .content > h1 {
+    font-size: 2.4rem;
+  }
+  .content > h2 {
+    font-size: 2rem;
+  }
+  .detail-container{
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .col{
+    margin-top: 1px;
+  }
+  .col > img{
+    width: 50px;
+    height: 50px;
+    margin-left: -10px;
+  }
 }
