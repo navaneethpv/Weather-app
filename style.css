@@ -145,13 +145,13 @@ body {
     margin: 0;
     border-radius: 0;
   }
-  .search{
+  .search {
     margin-top: 15px;
   }
-  .search > input{
+  .search > input {
     font-size: 17px;
   }
-  .content img{
+  .content img {
     width: 150px;
     height: 150px;
   }
@@ -161,16 +161,23 @@ body {
   .content > h2 {
     font-size: 2rem;
   }
-  .detail-container{
+  .detail-container {
     flex-direction: column;
     margin-top: 60px;
   }
-  .col{
+  .col {
     margin-top: 1px;
   }
-  .col > img{
+  .col > img {
     width: 50px;
     height: 50px;
     margin-left: -10px;
   }
+  .wind {
+    margin: 3px -9px 18px 8px;
+    font-size: 19px;
+  }
+}
+.col .wind-speed {
+  font-size: 22px;
 }
