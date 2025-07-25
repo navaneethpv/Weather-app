@@ -139,9 +139,10 @@ body {
   margin-left: -87px;
   text-shadow: 0 1px 5px #999696;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .container {
     width: 100%;
+    height: 100vh;
     margin: 0;
     border-radius: 0;
   }
